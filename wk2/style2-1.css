@@ -1,0 +1,28 @@
+.left-box {
+    width : 60%; 
+    height : 300px;
+    float : left;
+    border: 1px solid black
+    
+  }
+.right-box {
+    width : 20%; 
+    height : 300px;
+    float : left;
+    border: 1px solid black;
+    overflow:hidden;
+    margin:0 auto;
+  }
+
+.image-thumbnail {
+    width:90%;
+    height:90%;
+    object-fit:cover;
+}
+.left-box-c{
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+    height: 90px;
+    border: 1px solid black;
+}
