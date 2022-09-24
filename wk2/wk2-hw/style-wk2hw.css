@@ -1,0 +1,78 @@
+
+.flex-container{
+    display: flex;
+    padding: 10px;
+    margin:5px;
+    background-color:lightgrey;
+}
+    .flex-container.space-around{justify-content: space-around;}
+
+.smallbox{
+    width: 330px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.imagebox
+{
+  position: relative;
+  width : 100%; 
+  height : 50%;
+  overflow: hidden;
+}
+.imagebox image-thumbnail
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textbox
+{
+    width : 100%; 
+    height : 50%;
+    float : left;
+
+}
+
+  
+.classcode{
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size : 15px;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    color : gray;
+    font-weight : 400;
+}
+.text{
+    height: 50px;
+    padding-left: 10px;
+    font-size : 18px;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    color : black;
+    font-weight : 600;
+    max-width: calc(100% - 38px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.prof{
+    height: 50px;
+    padding-left: 10px;
+    font-size : 10px;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color : grey;
+}
+
