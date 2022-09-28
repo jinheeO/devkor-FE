@@ -1,0 +1,64 @@
+.bigbox {
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-title{
+    font-size : 25px;
+    color : black;
+    font-weight : 600;
+    margin: 10px;
+    width: 100%;
+}
+.box-input{
+    font-size : 15px;
+    color : black;
+    font-weight : 400;
+    width: 100%;
+}
+
+.box-name{
+    font-size : 15px;
+    color : black;
+    font-weight : 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.name{
+    width: 50%;
+}
+
+.box-send{
+    font-size : 15px;
+    color : black;
+    font-weight : 400;
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    margin: 10px;
+  }
+
+p{
+    margin:10px;
+}
+
+.sendbutt{
+    background: orange;
+    color: white;
+    border-color: orange;
+    width:100px;
+    height:30px;
+}
+
+.msgbox{
+    height:100px
+}
+
